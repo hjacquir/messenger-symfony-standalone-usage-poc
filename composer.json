@@ -1,6 +1,14 @@
 {
     "require": {
         "symfony/messenger": "^5.1",
-        "doctrine/dbal": "^3.0"
+        "doctrine/dbal": "^3.0",
+        "symfony/console": "^5.1",
+        "monolog/monolog": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hj\\": "src/Hj/",
+            "Hj\\Tests\\": "tests/Hj/"
+        }
     }
 }
