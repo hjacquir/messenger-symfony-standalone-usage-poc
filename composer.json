@@ -1,0 +1,6 @@
+{
+    "require": {
+        "symfony/messenger": "^5.1",
+        "doctrine/dbal": "^3.0"
+    }
+}
